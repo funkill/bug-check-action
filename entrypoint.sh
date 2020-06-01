@@ -4,4 +4,4 @@ set -x
 
 cd ${GITHUB_WORKSPACE}
 
-bugs-checker -o second-edition/src second-edition-ru/src
+bugs-checker -o second-edition/src -t second-edition-ru/src
