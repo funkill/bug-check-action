@@ -1,0 +1,5 @@
+name: "Gitlocalize bugs checker"
+description: 'Check gitlocalize bugs'
+runs:
+  using: docker
+  image: Dockerfile
