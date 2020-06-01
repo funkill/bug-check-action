@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -euo pipefail
+set -x
 
 cd ${GITHUB_WORKSPACE}
 
