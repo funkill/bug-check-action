@@ -2,6 +2,9 @@
 
 set -x
 
+ORIGINAL_DIR=${INPUT_ORIGINAL_DIR}
+TRANSLATION_DIR=${INPUT_TRANSLATION_DIR}
+
 cd ${GITHUB_WORKSPACE}
 
-RUST_BACKTRACE=full bugs-checker -o second-edition/src -t second-edition-ru/src
+RUST_BACKTRACE=full bugs-checker -o $ORIGINAL_DIR -t $TRANSLATION_DIR
