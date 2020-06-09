@@ -1,10 +1,10 @@
 name: "Gitlocalize bugs checker"
 description: 'Check gitlocalize bugs'
 inputs:
-  translation-dir:
+  translation_dir:
     description: 'Translation directory'
     required: true
-  original-dir:
+  original_dir:
     description: 'Original dir'
     required: true
 runs:
